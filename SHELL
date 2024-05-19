@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	//Menjalankan perintah shell, dengan menggunakan perintah
+	system("echo Hello Marisa Semangat UTS!");
+	
+	return 0;
+}
