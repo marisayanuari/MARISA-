@@ -1,0 +1,23 @@
+#include <iostream>
+#include <queue>
+
+int main() {
+    std::queue<int> myQueue;
+
+    // Enqueue
+    myQueue.push(10);
+    myQueue.push(20);
+    myQueue.push(30);
+
+    // Dequeue
+    std::cout << "Dequeued element: " << myQueue.front() << std::endl;
+    myQueue.pop();
+
+    // Display
+    while (!myQueue.empty()) {
+        std::cout << myQueue.front() << " ";
+        myQueue.pop();
+    }
+
+    return 0;
+}
